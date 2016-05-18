@@ -1,9 +1,5 @@
-// Learning Processing
-// Daniel Shiffman
-// http://www.learningprocessing.com
 
-// Example 1-1: stroke and fill
-
+// The setup function runs once
 function setup() {
   
   createCanvas(800, 600);
@@ -11,6 +7,7 @@ function setup() {
   fill(150);
 }
 
+//The draw function runs many times per second. The default rate is 60 frames per second!
 function draw() {
   background(0);
   rect(50,50,75,100);
